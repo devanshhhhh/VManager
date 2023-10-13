@@ -1,4 +1,9 @@
-VManager-Hotel managenent application
+#VManager-Hotel managenent application
+
+
+NOTE: Calirbate the SQL database to run the project. Use code queries to find proper field names to be used.
+
+The main window starts with "Log In" page. If you are using the project for the first time, click the "Register" button and use the registration window to create a new admin username and password. Use "VManager" as the product key. You can edit the code accordingly if you want to change the product key.
 
 The project has 5 buttons on the outermost interface namely:-
    1.) Customer
@@ -8,9 +13,9 @@ The project has 5 buttons on the outermost interface namely:-
    5.) Exit
 
 
-Buttons functionality:-
+##Buttons functionality:-
 
-   • Customer
+   ###• Customer
 	o In this button, you can Add, Update, Delete any new or existing customer details.
 	o The ref. no. is generated everytime randomly by the system.
   	o No two entries can have same ref. number.
@@ -19,7 +24,7 @@ Buttons functionality:-
 	o You can also get back the entire list after checking one single data by using Show all button.
 	o The table has scroll bars on right and bottom to accommodate entire data.
 
-   • Room
+   ###• Room
 	o In this button, you can Add, Update, Delete any new or existing room details for registered customer(s).
 	o You can also view the customer details by entering the mobile number in customer contact tab and clicking the Fetch data button. The info. should get displayed in a window next to it.
     	o You can enter all the details and select rooms for customer created in the details tab.
@@ -33,7 +38,7 @@ Buttons functionality:-
 	o You can also get back the entire list after checking one single data by using Show all button.
 	o The table has scroll bars on right and bottom to accommodate entire data.
 
-   • Details
+   ###• Details
 	o In this button, you can Add, Update, Delete any new or existing room(s) to be allotted to customer(s).
 	o You can enter all the details like floor, room no. and room type for records.
 	o No two entries can have same room number on same floor.
@@ -41,10 +46,10 @@ Buttons functionality:-
 	o You can view data recorded in the table located at the right side of the window.
 	o The table has scroll bars on right and bottom to accommodate entire data.
 
-   • Credits
+   ###• Credits
 	o In this button, the info regarding he project developers and mentor is displayed.
 
-   • Exit
+   ###• Exit
 	o This button destroys the main frame display and hence, can be used to quit out and close the application window.
 
 
